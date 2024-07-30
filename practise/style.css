@@ -1,0 +1,42 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    border:1px solid  black;
+    height: 200vh;
+    width: 900px;
+    margin: 0 auto;
+
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.image_container,img{
+    width: 300px;
+    height:420px
+}
+.content h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+   
+}
+.text{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}

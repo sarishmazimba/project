@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aliceblue;
+    min-height: 100vh;
+    border: 10px solid rgb(14, 15, 15);
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container,img{
+    width: 300px;
+    height: 320px;
+
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+    /* to bring the text like my name at bottom */
+}
+.top_section h4{
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+}
+.top_section h1{
+font-size:60px;
+/* if size is too much or shrink reduce the font-size */
+font-weight: bold;
+color: blue;
+text-transform: uppercase;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.about_section p{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.biography_section{
+    margin-top: 30px;
+    
+}
+.biography_section h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.biography_section ul{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-left: 50px;
+}
+footer{
+    margin: 30px 0px;
+    font-size: 20px;
+    text-align: end;
+}
+
+
+    
